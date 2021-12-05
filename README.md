@@ -1,6 +1,6 @@
 # VimGolf 문제 풀이
 
-## Q1. simple replacements
+## Q1. Add quotes to ansible playbook
 
 * $ vimgolf put 5f0f5fbe280fbf000c233304
 * 최고점: 8
@@ -19,6 +19,24 @@
 
 ---
 
-### Q2. Satisfy the go linter
+### Q2.  simple replacements
+* $ vimgolf put 603ba26a01b4d00009c10a49
+* 최고점 : 19
+* 나의 타수: 27
+> *Start file의 sumbline, emasc 문자열을 vim으로 치환하는 문제입니다.*
+ <img src = "https://user-images.githubusercontent.com/87132052/144735079-490226bb-a8c2-431b-8d28-1ab85ac8e14b.GIF" width ="100%" height ="100%">
+
+## MY Solve
+<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">\
+### 입력 명령어: ***Wdwivim[Esc]:%s/emacs/vim/g[CR]ZZ***
+> **W**: 다음 단어(subline) 앞으로 커서 이동, **dw**: 단어 잘라내기\
+> **i, vim**: Insert Mode로 변경 후 vim입력, **[ESC]**:INSERT MODE 종료\
+> **:%s/emacs/vim/g[CR]ZZ**: 모든(**%s**) emacs를 바로(**g**) vim으로 치환 후 종료
+
+---
+
+### Q3.  Satisfy the go linter
+ 
+
 ### Q3. Plotting some variables in python
 ### Q4. Python dataclasses
