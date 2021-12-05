@@ -27,7 +27,7 @@
  <img src = "https://user-images.githubusercontent.com/87132052/144735079-490226bb-a8c2-431b-8d28-1ab85ac8e14b.GIF" width ="100%" height ="100%">
 
 ## MY Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">\
+<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
 ### 입력 명령어: ***Wdwivim[Esc]:%s/emacs/vim/g[CR]ZZ***
 > **W**: 다음 단어(subline) 앞으로 커서 이동, **dw**: 단어 잘라내기\
 > **i, vim**: Insert Mode로 변경 후 vim입력, **[ESC]**:INSERT MODE 종료\
@@ -36,7 +36,15 @@
 ---
 
 ### Q3.  Satisfy the go linter
- 
+* $ vimgolf put 5f1063aa8361810006e73210
+* 최고점 : 20
+* 나의 타수: 35
+> *주석을 추가하는 문제입니다.*
+ <img src = "https://user-images.githubusercontent.com/87132052/144735289-8ca9c10a-ca88-4d80-82bb-ed2a9fd23ab1.GIF" width ="100%" height ="100%">
+
+## MY Solve
+<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
+### 입력 명령어: ***:4[CR]ywO// TODO[Esc]BPyy:6[CR]PWdwiDebug [Esc]ZZ***
 
 ### Q3. Plotting some variables in python
 ### Q4. Python dataclasses
