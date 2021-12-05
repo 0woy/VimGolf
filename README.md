@@ -51,26 +51,26 @@
 ### Q3.  Satisfy the go linter
 * $ vimgolf put 5f1063aa8361810006e73210
 * 최고점 : 20
-* 나의 타수: 35
+* 나의 타수: 33
 > *주석을 추가하는 문제입니다.*
  <img src = "https://user-images.githubusercontent.com/87132052/144735289-8ca9c10a-ca88-4d80-82bb-ed2a9fd23ab1.GIF" width ="100%" height ="100%">
 
 ## MY Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144735579-4f8bae7f-9c08-45e5-b182-d1a5d60f562b.gif" width ="80%" height ="80%">
+<img src = "https://user-images.githubusercontent.com/87132052/144737192-93c18189-00f1-44c8-b490-8c2f95ba2d1e.gif" width ="80%" height ="80%">
 
 
 ### 입력 명령어 
-***:4[CR]ywO// TODO[Esc]BPyy:6[CR]PWdwiDebug [Esc]ZZ***
+***4GywO// TODO[Esc]bPyy6GPwdwiDebug [Esc]ZZ***
 
 |명령어|설명|
 |:---:|:-------:|
-|**:4[CR]**|4번째 line으로 이동|
+|**4(6)G**|4(6)번째 line으로 이동|
 |**yw**|Version 잘라내기|
 |**O**|커서가 위치하는 line을 뒤로 밀어내고 INSERT MODE 실행|
 |**// TODO[ESC]**|"// TODO" 입력 후 종료(큰따옴표 포함X)|
 |**B**|TODO의 앞으로 이동|
 |**P**|잘라낸 Version 붙여넣기|
-|**yy:6[CR]**|// Version TODO(라인 전체)복사 후 6번째 line으로 이동|
+|**yy**|// Version TODO(라인 전체)복사|
 | **PWdw**|복사한 line 붙여 넣기, V앞으로 이동(**W**)후 Version 잘라내기|
 |**iDebug [ESC]**| INSERT MODE 실행 후 "Debug "입력(큰따옴표 포함X)후 모드 종료|
 
@@ -88,8 +88,7 @@
 
 
 ### 입력 명령어 
-***:%s/y1/abs(y1)/g[CR]/k[CR]rg[Up]rr[Up]rb/
-[Home]nr2n.n.nr3n.n.nr4n.n.ZZ***
+***:%s/y1/abs(y1)/g[CR]/k[CR]rg[Up]rr[Up]rb/1[CR][Home]nr2n.n.nr3n.n.nr4n.n.ZZ***
 |명령어|설명|
 |:---:|:----:|
 |**:%s/y1/abs(y1)/g[CR]**|모든 y1을 abs(y1)으로 치환|
@@ -106,20 +105,21 @@
 ### Q5. Python dataclasses
 * $ vimgolf put 6013804df3308e0009368f1c
 * 최고점 : 19
-* 나의 타수:
+* 나의 타수: 28
 > *큰 따옴표 안에 문자열을 추가하는 문제입니다.*
  <img src = "https://user-images.githubusercontent.com/87132052/144736685-9aa4a64c-60a3-4655-a7ab-61ef9b168c43.GIF" width = "100%" height ="100%">
 
 ## MY Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
+<img src = "https://user-images.githubusercontent.com/87132052/144737574-02ff39c5-f330-49a0-b481-001ba55fa980.gif" width ="80%" height ="80%">
 
 
 ### 입력 명령어 
 
-***Wdwivim[Esc]:%s/emacs/vim/g[CR]ZZ***
+***5Gye5jf"pa,name,age,score[Esc]ZZ***
 |명령어|설명|
 |:---:|:----:|
-|**W**|subline 앞으로 커서 이동|
-|**dw**|subline 잘라내기|
-|**ivim[Esc]**|INSERT MODE 실행, vim입력 후 모드 종료|
-|**:%s/emacs/vim/g[CR]**|모든(**%s**) emacs를 바로(**g**) vim으로 치환|
+|**5G**|5번째 line으로 이동|
+|**ye**|student_id(한 마디) 복사|
+|**5jf"**|5칸 아래로 이동(**5j**), "앞으로 이동|
+|**p**|현재 위치 다음에 붙여넣기|
+|**a**|현재 위치 다음 칸에서 INSERT MODE 시작|
