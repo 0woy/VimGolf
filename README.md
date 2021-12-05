@@ -79,26 +79,24 @@
 ### Q4. Plotting some variables in python
 *  $ vimgolf put 9v0060da5177000000000209
 * 최고점 : 34
-* 나의 타수: 55
+* 나의 타수: 48
 > *행마다 숫자와 문자를 바꾸는 문제입니다.*
  <img src = "https://user-images.githubusercontent.com/87132052/144735592-9034db8c-5af8-4f78-bd3f-94d640543f79.GIF" width ="100%" height ="100%">
 
 ## MY Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144735600-a6bf5bad-82fb-4a18-8197-dc5b1b400b14.gif" width ="80%" height ="80%">
+<img src = "https://user-images.githubusercontent.com/87132052/144738782-b48f8bb7-525f-4527-b6b0-4b96b17088ff.gif" width ="80%" height ="80%">
 
 
 ### 입력 명령어 
-***:%s/y1/abs(y1)/g[CR]/k[CR]rg[Up]rr[Up]rb/1[CR][Home]nr2n.n.nr3n.n.nr4n.n.ZZ***
+***:%s/y1/abs(&)[CR]:%s/1/\=line('.')-1/g[CR]fkrg[Up]rr[Up]rbZZ***
 |명령어|설명|
 |:---:|:----:|
-|**:%s/y1/abs(y1)/g[CR]**|모든 y1을 abs(y1)으로 치환|
-|**/k[CR]**|k 찾고 커서가 위치한 line의 k 앞으로 이동|
+|**:%s/y1/abs(&)/g[CR]**|모든 y1을 abs(y1)(**&: 기존 문자**)으로 치환|
+|**:%s/1/\=line('.')-1/g[CR]**|모든 1을 해당 행번호(**line('.')-1**)값으로 치환|
 |**rg(r,b)[Up]**|k를 g(r,b)로 덮어쓰기|
-|**/1[CR]**|1 찾고 커서가 위치한 line의 1 앞으로 이동|
-|**[Home]**|라인의 맨 앞으로 이동|
-|**n**|커서 위치를 기준, 다음 문자로 이동|
-|**r2(3,4)**|1을 2(3,4)로 덮어쓰기|
-| **.**|직전 명령 반복|
+|**fk**|k 앞으로 커서 이동|
+|**rg(r,b)**|k를 g(r,b)로 덮어쓰기|
+
 
 ---
 
