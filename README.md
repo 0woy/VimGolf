@@ -11,7 +11,9 @@
 
 
 ## My Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144713166-5e1104fa-4985-453d-8dba-4c77cf2dbc73.gif" width ="80%" height ="80%">\
+<img src = "https://user-images.githubusercontent.com/87132052/144713166-5e1104fa-4985-453d-8dba-4c77cf2dbc73.gif" width ="80%" height ="80%"> 
+
+
 ### 입력 명령어: ***GWi"[END]"[ESC]ZZ*** 
 > **G**: 마지막 줄로 이동, **W**: 다음 단어 앞으로 커서 이동\
 > **i**: INSERT MODE,  **[END]**: 라인 맨 끝으로 이동\
@@ -28,6 +30,8 @@
 
 ## MY Solve
 <img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
+
+
 ### 입력 명령어: ***Wdwivim[Esc]:%s/emacs/vim/g[CR]ZZ***
 > **W**: 다음 단어(subline) 앞으로 커서 이동, **dw**: 단어 잘라내기\
 > **i, vim**: Insert Mode로 변경 후 vim입력, **[ESC]**:INSERT MODE 종료\
@@ -43,8 +47,9 @@
  <img src = "https://user-images.githubusercontent.com/87132052/144735289-8ca9c10a-ca88-4d80-82bb-ed2a9fd23ab1.GIF" width ="100%" height ="100%">
 
 ## MY Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
-### 입력 명령어: ***:4[CR]ywO// TODO[Esc]BPyy:6[CR]PWdwiDebug [Esc]ZZ***
+<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">\
+### 입력 명령어 
+***:4[CR]ywO// TODO[Esc]BPyy:6[CR]PWdwiDebug [Esc]ZZ***
 
-### Q3. Plotting some variables in python
-### Q4. Python dataclasses
+### Q4. Plotting some variables in python
+### Q5. Python dataclasses
