@@ -16,8 +16,7 @@
 
 ### 입력 명령어: ***GWi"[END]"[ESC]ZZ*** 
 > **G**: 마지막 줄로 이동, **W**: 다음 단어 앞으로 커서 이동\
-> **i**: INSERT MODE,  **[END]**: 라인 맨 끝으로 이동\
-> **[ESC]**: INSERT MODE 종료, **ZZ**: 저장 후 종료
+> **i"[END]"[ESC]ZZ**: INSERT MODE 실행 후 " 입력, 라인 맨 끝으로 이동, " 입력 후 종료
 
 ---
 
@@ -47,9 +46,14 @@
  <img src = "https://user-images.githubusercontent.com/87132052/144735289-8ca9c10a-ca88-4d80-82bb-ed2a9fd23ab1.GIF" width ="100%" height ="100%">
 
 ## MY Solve
-<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">\
+<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
+
+
 ### 입력 명령어 
 ***:4[CR]ywO// TODO[Esc]BPyy:6[CR]PWdwiDebug [Esc]ZZ***
+> **:4[CR]**: 4번째 line으로 이동, **yw**: 단어 잘라내기\
+> **O**: 커서가 위치하는 line을 뒤로 밀어내고 INSERT MODE 실행\ 
+> **// TODO[ESC]**: "// TODO" 입력 후 종료
 
 ### Q4. Plotting some variables in python
 ### Q5. Python dataclasses
