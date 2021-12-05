@@ -111,11 +111,11 @@
 
 ### 입력 명령어 
 
-***5Gye5jf"pa,name,age,score[Esc]ZZ***
+***5Gyw5jf"pa,name,age,score[Esc]ZZ***
 |명령어|설명|
 |:---:|:----:|
 |**5G**|5번째 line으로 이동|
-|**ye**|student_id(한 마디) 복사|
+|**yw**|student_id 복사|
 |**5jf"**|5칸 아래로 이동(**5j**), "앞으로 이동|
 |**p**|현재 위치 다음에 붙여넣기|
 |**a**|현재 위치 다음 칸에서 INSERT MODE 시작|
