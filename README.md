@@ -65,10 +65,10 @@
 |명령어|설명|
 |:---:|:-------:|
 |**4(6)G**|4(6)번째 line으로 이동|
-|**yw**|Version 잘라내기|
+|**yw**|Version 복사|
 |**O**|커서가 위치하는 line을 뒤로 밀어내고 INSERT MODE 실행|
 |**B**|TODO의 앞으로 이동|
-|**P**|잘라낸 Version 붙여넣기|
+|**P**|잘라낸 Version T앞에 붙여넣기|
 |**yy**|// Version TODO(라인 전체)복사|
 | **PWdw**|복사한 line 붙여 넣기, V앞으로 이동(**W**)후 Version 잘라내기|
 |**iDebug**| INSERT MODE 실행 후 "Debug "입력(큰따옴표 포함X)|
