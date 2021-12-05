@@ -108,8 +108,7 @@
 * 최고점 : 19
 * 나의 타수:
 > *큰 따옴표 안에 문자열을 추가하는 문제입니다.*
- <img src = "![Vimgolf5](https://user-images.githubusercontent.com/87132052/144736685-9aa4a64c-60a3-4655-a7ab-61ef9b168c43.GIF)
-" height ="100%">
+ <img src = "https://user-images.githubusercontent.com/87132052/144736685-9aa4a64c-60a3-4655-a7ab-61ef9b168c43.GIF" width = "100%" height ="100%">
 
 ## MY Solve
 <img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
