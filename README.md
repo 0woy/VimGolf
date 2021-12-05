@@ -20,7 +20,7 @@
 |:---:|:----:|
 |**G**|마지막 줄로 이동|
 |**W**|{ 앞으로 커서 이동|
-|**i"[END]"[ESC]ZZ**|INSERT MODE 실행 후 " 입력, 라인 맨 끝으로 이동(**[END]**), " 입력 후 종료|
+|**i"[END]"[ESC]**|INSERT MODE 실행 후 " 입력, 라인 맨 끝으로 이동(**[END]**), " 입력 후 모드 종료|
 
 ---
 
@@ -43,7 +43,7 @@
 |**W**|subline 앞으로 커서 이동|
 |**dw**|subline 잘라내기|
 |**ivim[Esc]**|INSERT MODE 실행, vim입력 후 모드 종료|
-|**:%s/emacs/vim/g[CR]ZZ**|모든(**%s**) emacs를 바로(**g**) vim으로 치환 후 종료|
+|**:%s/emacs/vim/g[CR]**|모든(**%s**) emacs를 바로(**g**) vim으로 치환|
 
 
 ---
@@ -63,7 +63,7 @@
 ***:4[CR]ywO// TODO[Esc]BPyy:6[CR]PWdwiDebug [Esc]ZZ***
 
 |명령어|설명|
-|:---:|:----:|
+|:---:|:-------:|
 |**:4[CR]**|4번째 line으로 이동|
 |**yw**|Version 잘라내기|
 |**O**|커서가 위치하는 line을 뒤로 밀어내고 INSERT MODE 실행|
@@ -72,7 +72,7 @@
 |**P**|잘라낸 Version 붙여넣기|
 |**yy:6[CR]**|// Version TODO(라인 전체)복사 후 6번째 line으로 이동|
 | **PWdw**|복사한 line 붙여 넣기, V앞으로 이동(**W**)후 Version 잘라내기|
-|**iDebug [ESC]ZZ**| INSERT MODE 실행 후 "Debug "입력(큰따옴표 포함X)후 종료|
+|**iDebug [ESC]**| INSERT MODE 실행 후 "Debug "입력(큰따옴표 포함X)후 모드 종료|
 
 ---
 
@@ -97,11 +97,30 @@
 |**rg(r,b)[Up]**|k를 g(r,b)로 덮어쓰기|
 |**/1[CR]**|1 찾고 커서가 위치한 line의 1 앞으로 이동|
 |**[Home]**|라인의 맨 앞으로 이동|
-|**n**|커서 위치를 기준으로 다음에 나오는 1 앞으로 이동|
+|**n**|커서 위치를 기준, 다음 문자로 이동|
 |**r2(3,4)**|1을 2(3,4)로 덮어쓰기|
-| **n.**|다음 문자로 이동후 직전 명령 반복|
-
+| **.**|직전 명령 반복|
 
 ---
 
 ### Q5. Python dataclasses
+* $ vimgolf put 6013804df3308e0009368f1c
+* 최고점 : 19
+* 나의 타수:
+> *큰 따옴표 안에 문자열을 추가하는 문제입니다.*
+ <img src = "![Vimgolf5](https://user-images.githubusercontent.com/87132052/144736685-9aa4a64c-60a3-4655-a7ab-61ef9b168c43.GIF)
+" height ="100%">
+
+## MY Solve
+<img src = "https://user-images.githubusercontent.com/87132052/144735129-3c8740d0-c82c-48a3-aa80-96fe969fb991.gif" width ="80%" height ="80%">
+
+
+### 입력 명령어 
+
+***Wdwivim[Esc]:%s/emacs/vim/g[CR]ZZ***
+|명령어|설명|
+|:---:|:----:|
+|**W**|subline 앞으로 커서 이동|
+|**dw**|subline 잘라내기|
+|**ivim[Esc]**|INSERT MODE 실행, vim입력 후 모드 종료|
+|**:%s/emacs/vim/g[CR]**|모든(**%s**) emacs를 바로(**g**) vim으로 치환|
