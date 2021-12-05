@@ -20,7 +20,7 @@
 |:---:|:----:|
 |**G**|마지막 줄로 이동|
 |**W**|{ 앞으로 커서 이동|
-|**i"[END]"[ESC]**|INSERT MODE 실행 후 " 입력, 라인 맨 끝으로 이동(**[END]**), " 입력 후 모드 종료|
+|**i"[END]"**|INSERT MODE 실행 후 " 입력, 라인 맨 끝으로 이동(**[END]**), " 입력|
 
 ---
 
@@ -43,7 +43,7 @@
 |**W**|subline 앞으로 커서 이동|
 |**dw**|subline 잘라내기|
 |**ivim[Esc]**|INSERT MODE 실행, vim입력 후 모드 종료|
-|**:%s/emacs/vim/g[CR]**|모든(**%s**) emacs를 바로(**g**) vim으로 치환|
+|**:%s/emacs/vim/g**|모든(**%s**) emacs를 바로(**g**) vim으로 치환|
 
 
 ---
@@ -67,12 +67,11 @@
 |**4(6)G**|4(6)번째 line으로 이동|
 |**yw**|Version 잘라내기|
 |**O**|커서가 위치하는 line을 뒤로 밀어내고 INSERT MODE 실행|
-|**// TODO[ESC]**|"// TODO" 입력 후 종료(큰따옴표 포함X)|
 |**B**|TODO의 앞으로 이동|
 |**P**|잘라낸 Version 붙여넣기|
 |**yy**|// Version TODO(라인 전체)복사|
 | **PWdw**|복사한 line 붙여 넣기, V앞으로 이동(**W**)후 Version 잘라내기|
-|**iDebug [ESC]**| INSERT MODE 실행 후 "Debug "입력(큰따옴표 포함X)후 모드 종료|
+|**iDebug**| INSERT MODE 실행 후 "Debug "입력(큰따옴표 포함X)|
 
 ---
 
@@ -93,7 +92,6 @@
 |:---:|:----:|
 |**:%s/y1/abs(&)/g[CR]**|모든 y1을 abs(y1)(**&: 기존 문자**)으로 치환|
 |**:%s/1/\=line('.')-1/g[CR]**|모든 1을 해당 행번호(**line('.')-1**)값으로 치환|
-|**rg(r,b)[Up]**|k를 g(r,b)로 덮어쓰기|
 |**fk**|k 앞으로 커서 이동|
 |**rg(r,b)**|k를 g(r,b)로 덮어쓰기|
 
